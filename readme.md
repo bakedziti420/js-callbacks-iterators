@@ -1,5 +1,6 @@
 <!--
-Market: SF
+Adapted By: Zeb Girouard
+Market: DEN
 -->
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
@@ -16,19 +17,19 @@ Using callback functions is an effective way to write declarative, functional Ja
 <!-- specific/measurable goal for students to achieve -->
 *After this workshop, developers will be able to:*
 
-- Pass a function as a callback to another function
-- Use callbacks to build more declarative iterators
-- Pick the best iterator for the job
-- Build certain iterators from scratch
+- **Pass** a function as a callback to another function
+- **Use** callbacks to build more declarative iterators
+- **Pick** the best iterator for the job
+- **Build** certain iterators from scratch
 
 
 ## Where should we be now?
 <!-- call out the skills that are prerequisites -->
 *Before this workshop, developers should already be able to:*
 
-- Write and call functions in JavaScript
-- Explain what a first-order function is
-- Use a `for` loop
+- **Write** and **call** functions in JavaScript
+- **Explain** what a first-order function is
+- **Use** a `for` loop
 
 ## A Callback
 
@@ -314,4 +315,4 @@ myForEach([0, 100, 200, 300], print)
 
 ## Exercise: Build your own iterators
 
-We are going to [**implement our own iterators**](https://github.com/sf-wdi-29/js-building-iterators-lab), from scratch. 
+We are going to [**implement our own iterators**](https://github.com/den-wdi-1/js-building-iterators-lab), from scratch. 
