@@ -5,6 +5,13 @@ Market: DEN
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+<!-- Hook:
+
+- So we've talked about doing things in JavaScript.  In order to "do things", what do we need to create?
+- We've also talked about loops.  What are the two kinds of loops we talked about?
+- So today we're going to put these concepts together.
+-->
+
 # Callbacks & Iterators
 
 ## Why is this important?
@@ -49,7 +56,7 @@ element.addEventListener("click", function(){
 
 ## An Iterator
 
-An object is an **iterator** when it knows how to access items from a collection one at a time, while keeping track of its current position within that sequence.
+An **iterator** is an object that enables a programmer to traverse a container, particularly lists or arrays.
 
 ```javascript
 var potatoes = ["Yukon Gold", "Russet", "Yellow Finn", "Kestrel"];
