@@ -33,6 +33,8 @@ Using callback functions is an effective way to write declarative, functional Ja
 
 ## A Callback
 
+A **callback function**, also known as a higher-order function, is a function that is passed to another function as a parameter, and the **callback function** is called (or executed) inside the other function.
+
 Let's walk through a couple of examples of code that utilize callbacks:
 
 ```javascript
@@ -47,6 +49,8 @@ element.addEventListener("click", function(){
 
 ## An Iterator
 
+An object is an **iterator** when it knows how to access items from a collection one at a time, while keeping track of its current position within that sequence.
+
 ```javascript
 var potatoes = ["Yukon Gold", "Russet", "Yellow Finn", "Kestrel"];
 for(var i=0; i < potatoes.length; i++){
@@ -55,6 +59,8 @@ for(var i=0; i < potatoes.length; i++){
 ```
 
 *Discuss the above example with your neighbor.*
+
+<!--CFU Catch-phrase with Callback, iterator, function, for loop -->
 
 ## [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/ForEach)
 
