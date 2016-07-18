@@ -329,3 +329,7 @@ myForEach([0, 100, 200, 300], print)
 ## Exercise: Build your own iterators
 
 We are going to [**implement our own iterators**](https://github.com/den-wdi-1/js-building-iterators-lab), from scratch. 
+
+## Licensing
+All content is licensed under a CC­BY­NC­SA 4.0 license.
+All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
