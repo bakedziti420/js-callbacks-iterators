@@ -95,6 +95,8 @@ fruits.forEach(function (value, index) {
 //    "Fig", "Guava", "Huckleberry", "Ice plant", "Jackfruit"];
 ```
 
+![](https://pbs.twimg.com/media/CuENlaeWAAA0QZk.jpg)
+
 ## [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Map)
 Similar to `forEach()`, `map()` traverses an array; this method, however, performs whatever callback function you pass into it on each element.  It outputs the results
 of the operation on each element as a new array.
