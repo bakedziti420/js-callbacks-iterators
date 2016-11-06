@@ -180,7 +180,9 @@ With the `filter()` method you can create a *second* array filled with elements 
 ```javascript
 var fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry",
 "Fig", "Guava", "Huckleberry", "Ice plant", "Jackfruit"];
+
 var vowels = ["A", "E", "I", "O", "U"];
+
 function vowelFruit(fruit) {
   var result = vowels.indexOf(fruit[0]) >= 0; // indexOf returns -1 if not found
   console.log("result for " + fruit + " is " + result);
@@ -193,6 +195,9 @@ var vowelFruits = fruits.filter(vowelFruit);
 Or alternatively:
 
 ```javascript
+var fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry",
+"Fig", "Guava", "Huckleberry", "Ice plant", "Jackfruit"];
+
 var vowels = ["A", "E", "I", "O", "U"];
 
 var vowelFruits = fruits.filter(function vowelFruit(fruit) {
