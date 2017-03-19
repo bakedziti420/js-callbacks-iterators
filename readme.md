@@ -5,6 +5,8 @@ Market: DEN
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+<!--1:35 5 minutes -->
+
 <!-- Hook:
 
 - So we've talked about doing things in JavaScript.  In order to "do things", what do we need to create?
@@ -38,6 +40,8 @@ Using callback functions is an effective way to write declarative, functional Ja
 - **Explain** what a first-order function is
 - **Use** a `for` loop
 
+<!--1:40 10 minutes -->
+
 ## A Callback
 
 A **callback function**, also known as a higher-order function, is a function that is passed to another function as a parameter, and the **callback function** is called (or executed) inside the other function.
@@ -68,6 +72,8 @@ for(var i=0; i < potatoes.length; i++){
 *Discuss the above example with your neighbor.*
 
 <!--CFU Catch-phrase with Callback, iterator, function, for loop -->
+
+<!--1:50 15 minutes -->
 
 ## [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/ForEach)
 
@@ -151,7 +157,7 @@ numbers.map(function square(element) {
 
 <details>
 <summary>
-Elaine the Etsy Merchant thinks her prices are scaring off customers. Subtracting one penny from every price might help!
+Elaine the Etsy Merchant thinks her prices are scaring off customers. Subtracting one penny from every price might help!  How can we help her, using `map`?
 
 ```javascript
 var prices = [3.00, 4.00, 10.00, 2.25, 3.01];
@@ -168,8 +174,7 @@ var reducedPrices = prices.map(function(price) {
 
 </details>
 
-
-
+<!--2:05 10 minutes -->
 
 ### [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Filter)
 With the `filter()` method you can create a *second* array filled with elements that pass certain criteria that you designate.  This is great for creating a sub array of fruits that start with vowels, a list of even numbers from a bigger list, and so on.  
@@ -240,6 +245,8 @@ var birthDateEvens = exampleBdays.filter(function(birthday) {
 ```
 </details>
 
+<!--2:15 10 minutes -->
+
 ## [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 The `reduce()` method is designed to create one single object that is the result of an action performed among all elements in an array.  It essentially 'reduces' the values of an array into one single element.
 
@@ -278,7 +285,7 @@ In the above example, the first time the callback is called it receives `100` an
 
 <details>
 <summary>
-Boberto has a lucrative dog walking business. He's made that money this summer. How much did he make?
+Boberto has a lucrative dog walking business. He's made that money this summer. How much did he make? Use `reduce` to help him out.
 
 ```javascript
 var earnings = [20, 25, 60, 20, 85, 20];
@@ -294,6 +301,8 @@ var total = earnings.reduce(function(previous, current) {
 ```
 </details>
 
+<!--2:25 10 minutes -->
+<!--Make sure students are at half mast for this whole exercise -->
 
 # Building Iterators Lab
 
@@ -337,7 +346,7 @@ myForEach([0, 100, 200, 300], print)
 
 ## Exercise: Build your own iterators
 
-We are going to [**implement our own iterators**](https://github.com/den-wdi-1/js-building-iterators-lab), from scratch. 
+Now we are going to [**implement our own iterators**](https://github.com/den-materials/js-building-iterators-lab), from scratch. 
 
 ## Licensing
 All content is licensed under a CC­BY­NC­SA 4.0 license.
