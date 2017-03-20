@@ -5,6 +5,7 @@ Market: DEN
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+<!--Actually 1:33 -->
 <!--1:35 5 minutes -->
 
 <!-- Hook:
@@ -40,6 +41,7 @@ Using callback functions is an effective way to write declarative, functional Ja
 - **Explain** what a first-order function is
 - **Use** a `for` loop
 
+<!--Actually 1:36 -->
 <!--1:40 10 minutes -->
 
 ## A Callback
@@ -58,6 +60,8 @@ element.addEventListener("click", function(){
 ```
 *Discuss the above example with your neighbor.*
 
+<!--Which of these pieces is the callback, and when is it executed/called? -->
+
 ## An Iterator
 
 An **iterator** is an object that enables a programmer to traverse a container, particularly lists or arrays.
@@ -73,6 +77,7 @@ for(var i=0; i < potatoes.length; i++){
 
 <!--CFU Catch-phrase with Callback, iterator, function, for loop -->
 
+<!-- Actually 
 <!--1:50 15 minutes -->
 
 ## [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/ForEach)
@@ -174,6 +179,7 @@ var reducedPrices = prices.map(function(price) {
 
 </details>
 
+<!--Actually 2:06 -->
 <!--2:05 10 minutes -->
 
 ### [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Filter)
@@ -245,6 +251,7 @@ var birthDateEvens = exampleBdays.filter(function(birthday) {
 ```
 </details>
 
+<!--2:26 -->
 <!--2:15 10 minutes -->
 
 ## [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
@@ -347,6 +354,8 @@ myForEach([0, 100, 200, 300], print)
 ## Exercise: Build your own iterators
 
 Now we are going to [**implement our own iterators**](https://github.com/den-materials/js-building-iterators-lab), from scratch. 
+
+<!--Actually ending at 2:59 -->
 
 ## Licensing
 All content is licensed under a CC­BY­NC­SA 4.0 license.
