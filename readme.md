@@ -37,8 +37,8 @@ Using callback functions is an effective way to write declarative, functional Ja
 <!-- call out the skills that are prerequisites -->
 *Before this workshop, developers should already be able to:*
 
-- **Write** and **call** functions in JavaScript
-- **Explain** what a first-order function is
+- **Define** and **call** functions in JavaScript
+- **Explain** what a function is
 - **Use** a `for` loop
 
 <!--Actually 1:36 -->
@@ -77,7 +77,6 @@ for(var i=0; i < potatoes.length; i++){
 
 <!--CFU Catch-phrase with Callback, iterator, function, for loop -->
 
-<!-- Actually 
 <!--1:50 15 minutes -->
 
 ## [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/ForEach)
