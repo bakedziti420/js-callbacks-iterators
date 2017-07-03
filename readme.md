@@ -5,6 +5,7 @@ Market: DEN
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+<!--1:36 WDI4 -->
 <!--Actually 1:33 -->
 <!--1:35 5 minutes -->
 
@@ -41,6 +42,7 @@ Using callback functions is an effective way to write declarative, functional Ja
 - **Explain** what a function is
 - **Use** a `for` loop
 
+<!--1:38 WDI4 -->
 <!--Actually 1:36 -->
 <!--1:40 10 minutes -->
 
@@ -77,6 +79,7 @@ for(var i=0; i < potatoes.length; i++){
 
 <!--CFU Catch-phrase with Callback, iterator, function, for loop -->
 
+<!--WDI4 1:49 -->
 <!--1:50 15 minutes -->
 
 ## [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/ForEach)
@@ -107,6 +110,7 @@ fruits.forEach(function (value, index) {
 
 ![](https://pbs.twimg.com/media/CuENlaeWAAA0QZk.jpg)
 
+<!--1:57 WDI4 -->
 ## [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Map)
 Similar to `forEach()`, `map()` traverses an array. This method, however, performs whatever callback function you pass into it on each element, then outputs the results of the operation on each element as a new array.
 
@@ -178,6 +182,7 @@ var reducedPrices = prices.map(function(price) {
 </details>
 
 <!--Actually 2:06 -->
+<!--WDI4 2:08 so many questions -->
 <!--2:05 10 minutes -->
 
 ### [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Filter)
@@ -249,6 +254,7 @@ var birthDateEvens = exampleBdays.filter(function(birthday) {
 ```
 </details>
 
+<!--2:23 WDI4-->
 <!--2:26 -->
 <!--2:15 10 minutes -->
 
@@ -306,6 +312,7 @@ var total = earnings.reduce(function(previous, current) {
 ```
 </details>
 
+<!--WDI4 2:32-->
 <!--2:25 10 minutes -->
 <!--Make sure students are at half mast for this whole exercise -->
 
@@ -353,6 +360,7 @@ myForEach([0, 100, 200, 300], print)
 
 Now we are going to [**implement our own iterators**](https://github.com/den-materials/js-building-iterators-lab), from scratch. 
 
+<!--WDI4 ending 2:55 -->
 <!--Actually ending at 2:59 -->
 
 ## Licensing
