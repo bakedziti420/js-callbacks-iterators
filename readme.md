@@ -108,8 +108,7 @@ fruits.forEach(function (value, index) {
 ![](https://pbs.twimg.com/media/CuENlaeWAAA0QZk.jpg)
 
 ## [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Map)
-Similar to `forEach()`, `map()` traverses an array; this method, however, performs whatever callback function you pass into it on each element.  It outputs the results
-of the operation on each element as a new array.
+Similar to `forEach()`, `map()` traverses an array. This method, however, performs whatever callback function you pass into it on each element, then outputs the results of the operation on each element as a new array.
 
 Often we want to do more than just perform an action, like console.log(), on every loop.  When we actually want to modify/manipulate our array, map is our best friend!
 
